@@ -21,10 +21,10 @@ export default function Marquee() {
         {repeated.map((w, i) => (
           <span
             key={i}
-            className="font-display text-3xl sm:text-4xl text-ink-900/60 mx-10 italic"
+            className="font-display text-3xl sm:text-4xl text-ink-900/60 ml-10 italic"
           >
             {w}
-            <span className="mx-10 text-brand-orange not-italic">✦</span>
+            <span className="ml-10 text-brand-orange not-italic">✦</span>
           </span>
         ))}
       </div>
